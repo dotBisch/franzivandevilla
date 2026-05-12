@@ -69,9 +69,9 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Franz Ivan R. De Villa is a flexible developer specializing in the logical architecture
-        required to make systems work efficiently. His work spans full-stack development,
-        ranging from optimizing backend data layers and SQL logic to crafting responsive user interfaces with React and TypeScript.
+        Franz Ivan R. De Villa is a flexible developer specializing in efficient system design.
+        He works across full-stack development and workflow automations,
+        from backend logic and SQL to React/TypeScript interfaces and AI-powered workflows.
       </>
     ),
   },
@@ -79,6 +79,24 @@ const about: About = {
     display: true, // set to false to hide this section
     title: "Work Experience",
     experiences: [
+      {
+        company: "SN International Group Pty Ltd",
+        timeframe: "January 2026 - Present",
+        role: "AI Specialist Intern",
+        achievements: [
+          <>
+            Hardened Zara (OpenClaw) deployment and access control by containerizing the environment with Docker
+            on a Hostinger VPS, achieving 95% uptime during the beta launch secured by Cloudflare.
+          </>,
+          <>
+            Expanded agent capabilities by integrating Twilio for phone calls along with Google Workspace and Notion
+            integrations, increasing executive productivity by 50% through streamlined API-driven workflows.
+          </>,
+        ],
+        images: [
+          // optional: leave the array empty if you don't want to display images
+        ],
+      },
       {
         company: "Rakso Computer Technology, Inc.",
         timeframe: "July 2025 - August 2025",
@@ -232,18 +250,7 @@ const about: About = {
           },
         ],
         images: [
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
+          //insert sample projects here
         ],
       },
     ],
