@@ -1,6 +1,6 @@
 # Franz Ivan De Villa
 
-**Software Developer Intern** based in Manila, Philippines.
+**Software Developer | AI Specialist** based in Manila, Philippines.
 
 Welcome to my personal portfolio. This repository contains the source code for my portfolio website, where I showcase my projects, skills, and professional journey.
 
